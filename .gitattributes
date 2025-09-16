@@ -15,7 +15,23 @@
 # print(y)
 # print(z)
 
-x = input("whats your name")
-print(x)
-y = x.split()
-print(y)
+
+# temp = 75
+# if temp > 68:
+#     print('warm')
+# elif temp == 68:
+#     print('perfect')
+# else:
+#     print('cold')
+
+x = input("Gimme a number ")
+y = float(0.5)
+x = int(x)
+x = x * y
+if x == int:
+    print("even")
+else:
+    print("odd")
+   
+
+
