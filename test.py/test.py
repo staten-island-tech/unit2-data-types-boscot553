@@ -33,7 +33,32 @@
 # else:
 #     print("odd")
 
-bill = input("How much was your bill?")
-tip = input("Select a tip amount. 0, 15, 20, or 25")
-bill = bill * 0.15
-print(bill)
+# bill = input("How much was your bill? ")
+# tip = input("Select a tip amount: 0, 15, 20, or 25")
+# bill = int(bill)
+# tip = int(tip)
+# if tip == 0:
+#     print(bill)
+# elif tip == 15:
+#     bill = bill * 1.15
+#     print(bill)
+    
+# elif tip == 20:
+#     bill = bill * 1.20
+#     print(bill)
+# elif tip == 25:
+#     bill = bill * 1.25
+# else:
+#     print("Pick a valid tip amount")
+
+x = input("Gimme a number ")
+x = int(x)
+y = 1
+for i in range(x):
+    if x % y == 0:
+        print(y)
+        y += 1
+    else:
+        y += 1
+
+  
