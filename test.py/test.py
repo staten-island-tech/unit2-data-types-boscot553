@@ -51,14 +51,45 @@
 # else:
 #     print("Pick a valid tip amount")
 
-x = input("Gimme a number ")
-x = int(x)
-y = 1
-for i in range(x):
-    if x % y == 0:
-        print(y)
-        y += 1
-    else:
-        y += 1
+# x = input("Gimme a number ")
+# x = int(x)
+# y = 1
+# for i in range(x):
+#     if x % y == 0:
+#         print(y)
+#         y += 1
+#     else:
+#         y += 1
 
+x = input("Gimme one number ")
+y = input("Gimme another number ")
+x = int(x)
+y = int(y)
+if x > y:
+    z = x
+else:
+    z = y
+
+for i in range(z):
+    if x % z  == 0 and y % z == 0:
+        print(z)
+        z = 0
+        break
+    else:
+        z -= 1
+
+
+    
+
+
+# x = input("Gimme a number ")
+# x = int(x)
+# y = x
+# for i in range(x):
+#     if x % y == 0:
+#         print(y)
+#         y -= 1
+#     else:
+#         y -= 1
+        
   
