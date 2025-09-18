@@ -61,35 +61,42 @@
 #     else:
 #         y += 1
 
-x = input("Gimme one number ")
-y = input("Gimme another number ")
-x = int(x)
-y = int(y)
-if x > y:
-    z = x
-else:
-    z = y
-
-for i in range(z):
-    if x % z  == 0 and y % z == 0:
-        print(z)
-        z = 0
-        break
-    else:
-        z -= 1
-
-
-    
-
-
-# x = input("Gimme a number ")
+# x = input("Gimme one number ")
+# y = input("Gimme another number ")
 # x = int(x)
-# y = x
-# for i in range(x):
-#     if x % y == 0:
-#         print(y)
-#         y -= 1
+# y = int(y)
+# if x > y:
+#     z = x
+# else:
+#     z = y
+
+# for i in range(z):
+#     if x % z  == 0 and y % z == 0:
+#         print(z)
+#         z = 0
+#         break
 #     else:
-#         y -= 1
-        
-  
+#         z -= 1
+
+
+# # tip calculator
+# bill = input("Bill amount ")
+# tip = input("Tip ")
+# bill = int(bill)
+# tip = int(tip)
+
+
+# x = input("Gimme a sentence ")
+# list [x]
+# print(x)
+
+x = input("Gimme a sentence")
+y= x.split( )
+z = y[0]
+print(z)
+z = y[1]
+print(z)
+z = y[2]
+print(z)
+z = y[3]
+print(z)
